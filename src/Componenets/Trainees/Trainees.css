@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.mainContainer{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.mainContainer .studentList{
+
+    margin-top: 5%;
+
+    height: 88vh;
+}
+.mainContainer .moreData{
+   
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.traineeContainer{
+    width: 100%;
+    float: left;
+    overflow: auto;
+    height:80vh;
+    scroll-behavior: smooth;
+    
+  
+}
+.search{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.searchInput{
+    padding:3%;
+    margin: 2%;
+    width: 80%;
+    outline: none;
+    border-radius:15px;
+    border: none;
+
+}
+
+.trainee{
+    width: 90%;
+    text-align: center;
+   
+    padding: 3%;
+    border-bottom: 1px solid rgb(207, 204, 204);
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 6%;
+   
+    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
+}
+
+.profilePreview{
+ 
+}
+.profileDetails{
+    /* background-color: yellow; */
+}
+.profileCard{
+    width: 80%;
+    height: 20rem;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.profile-imageContainer{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    border-radius: 50%;
+}
+.userName{
+   text-align: center;
+
+}
+.userName h4{
+    margin-top: 5%;
+}
+.user-details{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    padding: 1%;
+    color: #afb1b6;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.user-details p{
+    margin-top: 2%;
+}
+.active{
+    padding: 6%;
+    background-color: #EBF9EA;
+    width: 20%;
+}
+.attendance{
+    width: 95%;
+    
+    height: 10%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: white;
+
+}
+.attendanceInfo{
+    width: 95%;
+   
+    height:75vh;
+    margin-left: auto;
+    margin-right: auto;
+   
+    margin-top: 1%;
+    background-color: white;
+}
+.attendance h2{
+    padding: 3%;
+}
+.times{
+    width: 97.8%;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    text-align: center;
+    padding: 1%;
+   
+}
+.times .times-details{
+    border-right: 2px solid#F5F5F8;
+    padding: 2%;
+}
+.heading{
+    font-size: 11px;
+    font-weight: bold;
+    color:#A6AFB3;
+    text-align: left !important;
+}
+.subheading{
+    font-weight: bold;
+    text-align: left !important;
+}
+.attendance-header{
+    width: 100%;
+    float: left;
+   
+}
+
+.attendance-header{
+
+}
+.attendance-header li{
+   list-style: none;
+   
+}
+.attendance-header ul{
+  
+   display: flex;
+   justify-content: space-between;
+   padding: 5%;
+  
+}
+.header-list h4{
+    padding: 2.5%;
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    background-color:#F5F5F8;
+    width: 95%;
+   
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.ulteredListContainer{
+    width: 50%;
+   
+    
+}
+.time-sheet-container{
+    display: flex;
+    justify-content: space-between;
+   
+    width: 95%;
+   
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.time-sheet-container li{
+    list-style: none;
+    font-size: 11px;
+   margin-top: 6px;
+}
+.clockInAndOut{
+    width: 49%;
+   
+
+  
+}
+.time-sheet-container p{
+   
+}
+.time-sheet-container h4{
+    padding: 2.4%;
+    font-size: 11px;
+
+    width: 100%;
+
+}
+.time-sheet-container{
+    /* border-bottom: 1px solid #F5F5F8; */
+    margin-top: 2%;
+}
+table{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-top: none;
+}
+table th{
+    text-align: left;
+}
+.table-header{
+  
+}
+
+table tr {
+    border-bottom: 1px solid rgb(198, 198, 198);
+  }
+  tr:hover {background-color:#2196F3;
+    color: white;
+}
+th, td {
+    padding: 12px;
+  }

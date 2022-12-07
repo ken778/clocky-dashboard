@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+}
+.page{
+   
+    height: 100vh;
+}
+.content-screen{
+    display: grid;
+    grid-template-columns: 0.7fr 4fr;
+}
+.sideMenu li{
+    padding: 12px;
+   
+    margin-top: 10px;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+    width: 100%;
+    list-style: none;
+    text-transform: capitalize;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.dataPanel{
+    width: 98%;
+    background-color: #F4F7FC;
+    height: 90vh;
+   
+    margin-right: auto;
+    
+  
+}
+.header{
+    background-color: white;
+    height: 5%;
+    padding: 1%;
+  
+}
+.sideMenu{
+    border-right: 1px solid black;
+}
+.cardContainer{
+    width: 100%;
+    display: flex;
+    float: left;
+    margin-top: 3%;
+    justify-content: space-evenly;
+    
+}
+.cardContainer .card{
+   width: 16%;
+   height: 5rem;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+   background-color: white;
+}
+.cardContainer .card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+   
+}
+.cardContainer .card {
+    padding: 1%;
+}
+.cardContainer .card p{
+    font-size: 80%;
+}
+.cardContainer .card h4{
+    text-align: center;
+    padding-top: 5%;
+    margin-top: 20%;
+}
+.profile-imageContainer{
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.profile-imageContainer .image{
+    width: 40px;
+    height: 40px;
+}

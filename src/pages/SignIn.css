@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+}
+.root{
+  
+}
+.page{
+    position: relative;
+}
+.formContainer{
+    width: 50%;
+    height: 60%;
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+}
+
+.loginInto{
+  width: 90%;
+  height: 60%;
+  background-color: #267DFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+ 
+   
+}
+.loginFormContainer{
+  width: 90%;
+  height: 90%;
+  background-color: #FCFCFC;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+ 
+   
+}
+.loginInto p{
+   color: #FAFFF4;
+   padding: 2.5%;
+   padding-top: 6%;
+
+}
+.line{
+    height: 1.5%;
+    background-color: white;
+    width:20%;
+    margin-bottom: -10 !important;
+    
+}
+.signInLine{
+    height: 1%;
+    background-color: #267DFF;
+    width:15%;
+    margin-bottom: -8 !important;
+}
+.form{
+   
+    
+ 
+   
+   
+}
+input{
+   
+}
+.homee{
+    text-decoration: none;
+    color: white;
+}
